@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Main() {
   return (
     <div className="w-full h-screen bg-slate-950 flex  justify-between ">
@@ -12,12 +14,12 @@ export default function Main() {
             C#, C++, Java, SQL, criando soluções eficientes e inovadoras.
           </p>
 
-          <a href="https://github.com/neozmmv" className="items-center">
+          <Link href="https://github.com/neozmmv" className="items-center">
             <img
               src="/github.png"
               className="w-16 h-16 ml-64 mt-12 hover:scale-120 duration-300 hover:drop-shadow-[0px_0px_10px_rgba(0,0,0,1.5)]"
             />
-          </a>
+          </Link>
         </div>
 
         <div className=" w-[500px] h-[550px] mt-40 justify-center items-start text-center flex">
