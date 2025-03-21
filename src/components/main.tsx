@@ -1,10 +1,3 @@
-import { Montserrat } from "next/font/google";
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-});
-
 export default function Main() {
   return (
     <div className="w-full h-screen bg-slate-950 flex  justify-between ">

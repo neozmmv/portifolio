@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Nav() {
   return (
     <nav className="flex h-14 bg-black text-white">
@@ -9,9 +11,9 @@ export default function Nav() {
       </a>
       <ul className="flex justify-end items-center w-full">
         <li>
-          <a href="/" className="px-4 hover:text-[18px] duration-300">
+          <Link href="/" className="px-4 hover:text-[18px] duration-300">
             Home
-          </a>
+          </Link>
         </li>
         <li>
           {/* <a href="#" className="px-4 hover:text-[18px] duration-300">
@@ -19,9 +21,9 @@ export default function Nav() {
           </a> */}
         </li>
         <li>
-          <a href="/contact" className="px-4 hover:text-[18px] duration-300">
+          <Link href="/contact" className="px-4 hover:text-[18px] duration-300">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

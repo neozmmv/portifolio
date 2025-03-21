@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* import Image from "next/image"; */
 import Nav from "@/components/nav";
 import Main from "@/components/main";
 
